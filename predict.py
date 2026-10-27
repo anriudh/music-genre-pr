@@ -1,6 +1,7 @@
 """Predict the genre of any WAV or MP3 file with the saved model.
 
-Takes the middle 30 seconds of the file, extracts the same features used in
+Takes the middle 30 seconds of the file (all of it if shorter), extracts the
+same features used in
 training, prints the predicted genre with class probabilities and saves a mel
 spectrogram PNG next to the input file.
 
@@ -25,12 +26,13 @@ from src.features import extract_from_array
 
 
 def middle_30s(y, sr):
-    """Middle 30 s of the signal, zero padded if the file is shorter."""
+    """Middle 30 s of the signal. Shorter files are used as they are, since
+    padding with silence would drag down the mean and std features."""
     n = int(config.DURATION * sr)
-    if len(y) >= n:
-        start = (len(y) - n) // 2
-        return y[start:start + n]
-    return np.pad(y, (0, n - len(y)))
+    if len(y) <= n:
+        return y
+    start = (len(y) - n) // 2
+    return y[start:start + n]
 
 
 def save_mel(y, sr, out_path, title):
@@ -56,7 +58,7 @@ def main():
     bundle = joblib.load(config.BEST_MODEL)
     y, sr = librosa.load(args.audio, sr=config.SR, mono=True)
     if len(y) < config.DURATION * sr:
-        print(f"Note: file is {len(y) / sr:.1f} s long, padding to 30 s")
+        print(f"Note: file is only {len(y) / sr:.1f} s long, using all of it")
     y = middle_30s(y, sr)
 
     feats = pd.DataFrame([extract_from_array(y, sr)])[bundle["features"]]
