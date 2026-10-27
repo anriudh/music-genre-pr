@@ -1,0 +1,15 @@
+.venv/
+data/raw/
+__pycache__/
+.ipynb_checkpoints/
+
+# downloaded archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Hugging Face cache
+.cache/
+hf_cache/
