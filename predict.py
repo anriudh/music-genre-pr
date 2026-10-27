@@ -1,9 +1,8 @@
 """Predict the genre of any WAV or MP3 file with the saved model.
 
 Takes the middle 30 seconds of the file (all of it if shorter), extracts the
-same features used in
-training, prints the predicted genre with class probabilities and saves a mel
-spectrogram PNG next to the input file.
+same features used in training, prints the predicted genre with class
+probabilities and saves a mel spectrogram PNG next to the input file.
 
 Usage: python predict.py path/to/song.mp3
 """
