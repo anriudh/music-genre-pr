@@ -1,0 +1,23 @@
+{
+  "librosa_version": "0.10.2.post1",
+  "params": {
+    "sr": 22050,
+    "duration": 30.0,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "n_mfcc": 20
+  },
+  "n_clips": 999,
+  "n_features": {
+    "Timbral": 40,
+    "Spectral": 24,
+    "Rhythm": 10,
+    "Chroma": 24
+  },
+  "skipped": [
+    {
+      "clip": "jazz.00054",
+      "error": "missing from mirror"
+    }
+  ]
+}
