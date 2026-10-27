@@ -1,0 +1,181 @@
+feature_set,classifier,genre,f1
+Timbral,SVM,blues,0.7474747474747475
+Timbral,SVM,classical,0.900990099009901
+Timbral,SVM,country,0.6601941747572816
+Timbral,SVM,disco,0.5687203791469194
+Timbral,SVM,hiphop,0.6057692307692307
+Timbral,SVM,jazz,0.8235294117647058
+Timbral,SVM,metal,0.8205128205128205
+Timbral,SVM,pop,0.7513227513227513
+Timbral,SVM,reggae,0.5846153846153846
+Timbral,SVM,rock,0.5157894736842106
+Timbral,RF,blues,0.7165775401069518
+Timbral,RF,classical,0.8857142857142857
+Timbral,RF,country,0.6376811594202898
+Timbral,RF,disco,0.5333333333333333
+Timbral,RF,hiphop,0.6403940886699507
+Timbral,RF,jazz,0.7448979591836735
+Timbral,RF,metal,0.7962962962962963
+Timbral,RF,pop,0.7906976744186046
+Timbral,RF,reggae,0.631578947368421
+Timbral,RF,rock,0.43575418994413406
+Spectral,SVM,blues,0.7358490566037735
+Spectral,SVM,classical,0.8944723618090452
+Spectral,SVM,country,0.7121951219512195
+Spectral,SVM,disco,0.583732057416268
+Spectral,SVM,hiphop,0.7794871794871795
+Spectral,SVM,jazz,0.7920792079207921
+Spectral,SVM,metal,0.8585858585858586
+Spectral,SVM,pop,0.7329842931937173
+Spectral,SVM,reggae,0.5583756345177665
+Spectral,SVM,rock,0.5473684210526316
+Spectral,RF,blues,0.7523809523809524
+Spectral,RF,classical,0.9035532994923858
+Spectral,RF,country,0.6132075471698113
+Spectral,RF,disco,0.5714285714285714
+Spectral,RF,hiphop,0.6666666666666666
+Spectral,RF,jazz,0.7487179487179487
+Spectral,RF,metal,0.821256038647343
+Spectral,RF,pop,0.7326732673267327
+Spectral,RF,reggae,0.54
+Spectral,RF,rock,0.3312883435582822
+Rhythm,SVM,blues,0.43946188340807174
+Rhythm,SVM,classical,0.7227722772277227
+Rhythm,SVM,country,0.34146341463414637
+Rhythm,SVM,disco,0.5087719298245614
+Rhythm,SVM,hiphop,0.6111111111111112
+Rhythm,SVM,jazz,0.5326633165829145
+Rhythm,SVM,metal,0.5258215962441315
+Rhythm,SVM,pop,0.26993865030674846
+Rhythm,SVM,reggae,0.574468085106383
+Rhythm,SVM,rock,0.2236024844720497
+Rhythm,RF,blues,0.44878048780487806
+Rhythm,RF,classical,0.673469387755102
+Rhythm,RF,country,0.4039408866995074
+Rhythm,RF,disco,0.4834123222748815
+Rhythm,RF,hiphop,0.5951219512195122
+Rhythm,RF,jazz,0.6111111111111112
+Rhythm,RF,metal,0.49523809523809526
+Rhythm,RF,pop,0.34523809523809523
+Rhythm,RF,reggae,0.5454545454545454
+Rhythm,RF,rock,0.21951219512195122
+Chroma,SVM,blues,0.4807692307692308
+Chroma,SVM,classical,0.6981132075471698
+Chroma,SVM,country,0.4444444444444444
+Chroma,SVM,disco,0.3448275862068966
+Chroma,SVM,hiphop,0.6280193236714976
+Chroma,SVM,jazz,0.5408163265306123
+Chroma,SVM,metal,0.6028708133971292
+Chroma,SVM,pop,0.27835051546391754
+Chroma,SVM,reggae,0.43820224719101125
+Chroma,SVM,rock,0.25
+Chroma,RF,blues,0.39106145251396646
+Chroma,RF,classical,0.7142857142857143
+Chroma,RF,country,0.42342342342342343
+Chroma,RF,disco,0.35051546391752575
+Chroma,RF,hiphop,0.5806451612903226
+Chroma,RF,jazz,0.5242718446601942
+Chroma,RF,metal,0.6697674418604651
+Chroma,RF,pop,0.3157894736842105
+Chroma,RF,reggae,0.3315508021390374
+Chroma,RF,rock,0.3258426966292135
+All,SVM,blues,0.8349514563106796
+All,SVM,classical,0.9090909090909091
+All,SVM,country,0.7596153846153846
+All,SVM,disco,0.7029702970297029
+All,SVM,hiphop,0.8426395939086294
+All,SVM,jazz,0.8865979381443299
+All,SVM,metal,0.89
+All,SVM,pop,0.7916666666666666
+All,SVM,reggae,0.774869109947644
+All,SVM,rock,0.6130653266331658
+All,RF,blues,0.8080808080808081
+All,RF,classical,0.945273631840796
+All,RF,country,0.704225352112676
+All,RF,disco,0.624390243902439
+All,RF,hiphop,0.8041237113402062
+All,RF,jazz,0.8704663212435233
+All,RF,metal,0.8811881188118812
+All,RF,pop,0.7817258883248731
+All,RF,reggae,0.6985645933014354
+All,RF,rock,0.5161290322580645
+All minus Timbral,SVM,blues,0.7428571428571429
+All minus Timbral,SVM,classical,0.9117647058823529
+All minus Timbral,SVM,country,0.6602870813397129
+All minus Timbral,SVM,disco,0.5888324873096447
+All minus Timbral,SVM,hiphop,0.7959183673469388
+All minus Timbral,SVM,jazz,0.8350515463917526
+All minus Timbral,SVM,metal,0.8585365853658536
+All minus Timbral,SVM,pop,0.7918781725888325
+All minus Timbral,SVM,reggae,0.6839378238341969
+All minus Timbral,SVM,rock,0.40414507772020725
+All minus Timbral,RF,blues,0.7572815533980582
+All minus Timbral,RF,classical,0.9064039408866995
+All minus Timbral,RF,country,0.6990291262135923
+All minus Timbral,RF,disco,0.625
+All minus Timbral,RF,hiphop,0.76
+All minus Timbral,RF,jazz,0.7628865979381443
+All minus Timbral,RF,metal,0.8516746411483254
+All minus Timbral,RF,pop,0.723404255319149
+All minus Timbral,RF,reggae,0.6476190476190476
+All minus Timbral,RF,rock,0.4631578947368421
+All minus Spectral,SVM,blues,0.7487684729064039
+All minus Spectral,SVM,classical,0.8995215311004785
+All minus Spectral,SVM,country,0.7352941176470589
+All minus Spectral,SVM,disco,0.6051282051282051
+All minus Spectral,SVM,hiphop,0.8
+All minus Spectral,SVM,jazz,0.8854166666666666
+All minus Spectral,SVM,metal,0.8910891089108911
+All minus Spectral,SVM,pop,0.7715736040609137
+All minus Spectral,SVM,reggae,0.7244897959183674
+All minus Spectral,SVM,rock,0.54
+All minus Spectral,RF,blues,0.6947368421052632
+All minus Spectral,RF,classical,0.9178743961352657
+All minus Spectral,RF,country,0.647887323943662
+All minus Spectral,RF,disco,0.5829145728643216
+All minus Spectral,RF,hiphop,0.7450980392156863
+All minus Spectral,RF,jazz,0.8557213930348259
+All minus Spectral,RF,metal,0.8333333333333334
+All minus Spectral,RF,pop,0.7881773399014779
+All minus Spectral,RF,reggae,0.7076923076923077
+All minus Spectral,RF,rock,0.4470588235294118
+All minus Rhythm,SVM,blues,0.8431372549019608
+All minus Rhythm,SVM,classical,0.8985507246376812
+All minus Rhythm,SVM,country,0.7981220657276995
+All minus Rhythm,SVM,disco,0.7121951219512195
+All minus Rhythm,SVM,hiphop,0.7395833333333334
+All minus Rhythm,SVM,jazz,0.8762886597938144
+All minus Rhythm,SVM,metal,0.8627450980392157
+All minus Rhythm,SVM,pop,0.783068783068783
+All minus Rhythm,SVM,reggae,0.69
+All minus Rhythm,SVM,rock,0.6421052631578947
+All minus Rhythm,RF,blues,0.8121827411167513
+All minus Rhythm,RF,classical,0.914572864321608
+All minus Rhythm,RF,country,0.7102803738317757
+All minus Rhythm,RF,disco,0.6028708133971292
+All minus Rhythm,RF,hiphop,0.736318407960199
+All minus Rhythm,RF,jazz,0.845360824742268
+All minus Rhythm,RF,metal,0.86
+All minus Rhythm,RF,pop,0.7715736040609137
+All minus Rhythm,RF,reggae,0.6305418719211823
+All minus Rhythm,RF,rock,0.5
+All minus Chroma,SVM,blues,0.8333333333333334
+All minus Chroma,SVM,classical,0.9261083743842364
+All minus Chroma,SVM,country,0.8269230769230769
+All minus Chroma,SVM,disco,0.7373737373737373
+All minus Chroma,SVM,hiphop,0.7939698492462312
+All minus Chroma,SVM,jazz,0.8762886597938144
+All minus Chroma,SVM,metal,0.8629441624365483
+All minus Chroma,SVM,pop,0.7777777777777778
+All minus Chroma,SVM,reggae,0.7564766839378239
+All minus Chroma,SVM,rock,0.6568627450980392
+All minus Chroma,RF,blues,0.7817258883248731
+All minus Chroma,RF,classical,0.9207920792079208
+All minus Chroma,RF,country,0.7330316742081447
+All minus Chroma,RF,disco,0.6666666666666666
+All minus Chroma,RF,hiphop,0.7589743589743589
+All minus Chroma,RF,jazz,0.8186528497409327
+All minus Chroma,RF,metal,0.8725490196078431
+All minus Chroma,RF,pop,0.75
+All minus Chroma,RF,reggae,0.6730769230769231
+All minus Chroma,RF,rock,0.4864864864864865
